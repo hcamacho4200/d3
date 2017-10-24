@@ -6,7 +6,7 @@ import java.util.Random;
 
 public class Test {
     public Test() {
-        int buckets[] = {10, 30, 60, 300};
+        int buckets[] = {60, 120, 300};
         D3MemberState test = new D3MemberState(buckets);
 
         Random rand = new Random();
